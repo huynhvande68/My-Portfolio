@@ -1,0 +1,78 @@
+.contact-form {
+    width       : 41%;
+    margin-top  : 2.5%;
+    padding-left: 30.5%;
+    display     : block;
+
+    .contact-form form {
+        width: 100%;
+    }
+
+    ul {
+        margin : 0;
+        padding: 0;
+
+        li {
+            padding            : 0;
+            margin             : 0;
+            list-style         : none;
+            margin-bottom      : 10px;
+            opacity            : 0;
+            overflow           : hidden;
+            display            : block;
+            clear              : both;
+            position           : relative;
+            animation          : fadeInUp 2s 2s;
+            animation-fill-mode: forwards;
+        }
+    }
+}
+
+input[type='text'],
+input[type='email'] {
+    font-family: Arial, Helvetica, sans-serif;
+    outline: none;
+    border-radius: 10px;
+    width     : 100%;
+    background: rgb(24, 25, 26);
+    height    : 45px;
+    font-size : 16px;
+    color     : #fff;
+    padding   : 0 20px;
+    box-sizing: border-box;
+    border: 1px solid rgb(101, 100, 100);
+    &:focus{
+        border: 1px solid rgb(0,255,251);
+    }
+}
+textarea{
+    font-family: Arial, Helvetica, sans-serif;
+    outline: none;
+    width: 100%;
+    border: 1px solid rgb(101, 100, 100);
+    background: rgb(24, 25, 26);
+    height: 80px;
+    font-size: 16px;
+    color: #fff;
+    padding: 20px;
+    box-sizing: border-box;
+    min-height: 130px;
+    border-radius: 10px;
+    resize: vertical;
+    &:focus{
+        border: 1px solid rgb(0,255,251);
+    }
+}
+.flat-button{
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    height: 50px;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 10px;
+    background-color: aquamarine;
+    &:hover{
+        background-color: rgb(108, 222, 184);
+    }
+}

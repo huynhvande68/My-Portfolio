@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom'
 import "./index.scss"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faHtml5, faReact, faJs, faCss3, faGitAlt, faJsSquare, faNodeJs, faNode } from '@fortawesome/free-brands-svg-icons'
+import { faHtml5, faReact, faCss3, faGitAlt, faJsSquare , faNode } from '@fortawesome/free-brands-svg-icons'
 
 import {
     faLinkedin,

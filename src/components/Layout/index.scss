@@ -37,9 +37,9 @@
             font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
         }
         p{
-            font-family:sans-serif;
+            font-family:Arial, Helvetica, sans-serif;
             color: #ffff;
-            font-size: 16px;
+            font-size: 17px;
             font-weight: lighter;
             min-width: fit-content;
             animation: pulse 1s;
@@ -59,5 +59,43 @@
             }
         }
     }
-    
+}
+
+.contact-page{
+    .text-zone{
+        h1{
+            padding: 0;
+            text-align: center;
+            background: -webkit-linear-gradient(#00fffb, #fc3264);
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+            font-size: 80px;
+            margin: 0;
+            font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+        p{
+            margin-top:0;
+            text-align: center;
+            color: #ffff;
+            font-size: 18px;
+        }
+    }
+    .btn-contact{
+        text-align: center;
+        button{
+            margin-left: 25px;
+            margin-top: 15px;
+            width: 300px;
+            height: 65px;
+            cursor          : pointer;
+            color           : #000000;
+            font-weight     : 100;
+            border-radius   : 10px;
+            background-color: rgb(0, 255, 251);
+            font-size       : 18px;
+            letter-spacing  : 1px;
+            text-align      : center;
+            font-family     : Arial, Helvetica, sans-serif;
+        }
+    }
 }
