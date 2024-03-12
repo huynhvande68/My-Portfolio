@@ -1,0 +1,56 @@
+.progress-bar {
+    width      : 40%;
+    height     : 100%;
+    padding-top: 13%;
+    position   : absolute;
+    right      : 0;
+    div{
+        animation          : fadeInUp 1.5s 1s;
+        animation-fill-mode: forwards;
+    }
+    .container-bar {
+        height          : 5.5px;
+        width           : 90%;
+        background-color: #4f4f4f;
+        border-radius: 2px;
+    }
+    
+    .skills {
+        text-align: right;
+        height    : 100%;
+        margin-top: 0;
+        color     : white;
+        font-size: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: 40px;
+    }
+    
+    .html-css {
+        width           : 80%;
+        height          : 100%;
+        background: linear-gradient(to left,#ff7307, #0a48ff );
+    }
+    
+    .js {
+        width           : 70%;
+        background: linear-gradient(to left,#a4ee7f, #ffff02 );
+    }
+    
+    .reactjs {
+        width           : 60%;
+        background: linear-gradient(to left, #ffff02,#02c0ff );
+        
+    }
+    
+    .nodejs {
+        width           : 60%;
+        background: linear-gradient(to left, #cfc1ca,#0fff02 );
+
+    }
+    
+    p{
+        font-size: 20px;
+        color: aliceblue;
+    }
+}
+

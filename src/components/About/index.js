@@ -27,6 +27,25 @@ const About = () => {
           
         </p>
       </div>
+
+      <div className="progress-bar">
+          <p>HTML/CSS</p>
+          <div class="container-bar">
+            <div className="skills html-css">3 years</div>
+          </div>
+          <p>JavaScript</p>
+          <div class="container-bar">
+            <div className="skills js">2.5 years</div>
+          </div>
+          <p>ReactJS</p>
+          <div class="container-bar">
+            <div className="skills reactjs">2 years</div>
+          </div>
+          <p>NodeJS</p>
+          <div class="container-bar">
+            <div className="skills nodejs">2 years</div>
+          </div>
+        </div>
     </div>
     </>
   )
