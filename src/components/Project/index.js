@@ -19,7 +19,7 @@ const Project = () => {
               className="icon"
               target="_blank"
               rel="noreferrer"
-              href="https://www.figma.com/file/H8yyBsnrFwtqQOCYKRagrZ/PTTKYC?type=design&node-id=0-1&mode=design&t=iv5OZIxKKUxUgU1T-0"
+              href="https://callvideoweb.onrender.com/"
             >
               <FontAwesomeIcon icon={faUpRightFromSquare} />
             </a>
@@ -39,7 +39,7 @@ const Project = () => {
               className="icon"
               target="_blank"
               rel="noreferrer"
-              href="https://www.figma.com/file/H8yyBsnrFwtqQOCYKRagrZ/PTTKYC?type=design&node-id=0-1&mode=design&t=iv5OZIxKKUxUgU1T-0"
+              href="/"
             >
               <FontAwesomeIcon icon={faUpRightFromSquare} />
             </a>
