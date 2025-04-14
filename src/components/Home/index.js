@@ -10,6 +10,7 @@ import {
   } from '@fortawesome/free-brands-svg-icons'
 import { useEffect, useState } from 'react'
 import AnimatedLetters from '../AnimatedLetters'
+import { Link as ScrollLink } from 'react-scroll'
 
 
 
@@ -40,9 +41,27 @@ const Home = () =>{
             <h2>FRONTEND WEB DEVELOPER</h2>
             
             <h3>2 Years of Experience</h3>
-            <Link to='/contact' className='flat-button'>
-                <button>CONTACT ME</button>
-            </Link>
+            <div className='contact-button'>
+                    <ScrollLink to="contact" 
+                        smooth={true} 
+                        duration={500}
+                        delay={0}
+                        offset={-15} 
+                        containerId="page-content"
+                        onClick={() => {
+                            const section = document.getElementById('contact');
+                            const container = document.getElementById('page-content');
+                            
+                            if (section && container) {
+                                container.scrollTo({
+                                    top: section.offsetTop - 15,
+                                    behavior: 'smooth'
+                                });
+                            }
+                        }}>
+                        CONTACT ME
+                    </ScrollLink>
+            </div>
 
             <ul >
                 <li>

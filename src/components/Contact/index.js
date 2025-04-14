@@ -81,7 +81,7 @@ const Contact = () => {
               </li>
 
               <li>
-                <input type="submit" className="flat-button" value="SEND" />
+                <input type="submit" className="flat-button" value="SUBMIT" />
               </li>
             </ul>
           </form>
