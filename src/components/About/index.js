@@ -7,7 +7,7 @@ const About = () => {
     <>
     <div className="container about-page">
       <div className="text-zone">
-        <h1>About Me</h1>
+        <h1 >About Me</h1>
         <p>
           Hi, I'm a full-stack web developer with over 2+ years of experience
           and mainly focused on front-end development. I'm a very ambitious
@@ -32,10 +32,6 @@ const About = () => {
           <p>HTML/CSS</p>
           <div class="container-bar">
             <div className="skills html-css">3 years</div>
-          </div>
-          <p>JavaScript</p>
-          <div class="container-bar">
-            <div className="skills js">2.5 years</div>
           </div>
           <p>ReactJS</p>
           <div class="container-bar">
